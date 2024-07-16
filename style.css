@@ -1,6 +1,6 @@
 @font-face {
     font-family: buttermilk;
-    src: url('./Buttermilk.otf');
+    src: url('./Buttermilk.woff2');
 }
 
 *{
@@ -18,7 +18,7 @@ body {
 #wrapper {
     height: 100%;
     width: 100%;
-    background-image: url('./bg.jpg');
+    background-image: url('./bg.webp');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -28,7 +28,7 @@ body {
     top: 52%;
     left: 51%;
     transform: translate(-50%, -50%);
-    color: white;
+    color: yellow;
     font-size: 20rem;
     font-weight: 500;
     font-family: buttermilk;
